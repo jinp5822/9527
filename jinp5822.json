@@ -36,7 +36,6 @@
           "desc": "需要修改最小的运动步数的数字,例如:25000"
         }
       ],
-      "author": "@lxk0301",
       "repo": "https://github.com/jinp5822/9527",
       "script": "https://raw.githubusercontent.com/jinp5822/9527/main/xiaomiyundong.js",
       "icons": [

@@ -1,7 +1,7 @@
 {
-  "id": "jinp5822.app.sub",
+  "id": "lxk0301.app.sub",
   "name": "脚本订阅",
-  "author": "@jinp5822",
+  "author": "@lxk0301",
   "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
   "repo": "https://github.com/jinp5822/9527/",
   "apps": [
@@ -25,18 +25,18 @@
           "id": "xmMinStep",
           "name": "最小运动步数",
           "val": "19000",
-          "type": "8000",
+          "type": "text",
           "desc": "需要修改最小的运动步数的数字,例如:19000"
         },
         {
           "id": "xmMaxStep",
           "name": "最大运动步数",
           "val": "25000",
-          "type": "9000",
+          "type": "text",
           "desc": "需要修改最小的运动步数的数字,例如:25000"
         }
       ],
-      "author": "@jinp5822",
+      "author": "@lxk0301",
       "repo": "https://github.com/jinp5822/9527",
       "script": "https://raw.githubusercontent.com/jinp5822/9527/main/xiaomiyundong.js",
       "icons": [

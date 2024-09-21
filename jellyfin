@@ -1,0 +1,37 @@
+[
+     {
+        "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
+        "name": "Kodi Sync Queue",
+        "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
+        "overview": "Sync all media changes with Kodi clients",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
+        "versions": [
+            {
+                "version": "11.0.0.0",
+                "changelog": "- Downgrade LiteDB to 5.0.15 (#85) @oddstr13",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kodi-sync-queue/kodi-sync-queue_11.0.0.0.zip",
+                "checksum": "85e7c0ec3517841a302056b3f1210a29",
+                "timestamp": "2024-05-15T13:26:45Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Implement IDisposable (#75) @crobibero\n\n### Documentation updates ###\n- Fix openapi generation issues (#81) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency litedb to v5.0.19 (#78) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kodi-sync-queue/kodi-sync-queue_10.0.0.0.zip",
+                "checksum": "85feb6ea40568e59cfd6f2e6ec72082d",
+                "timestamp": "2024-05-11T19:43:58Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix the scheduled task section name (part of #71) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Cleanup logging and naming (#71) @Shadowghost\n\n### Dependency updates ###\n- Upgrades LiteDB to v5 (part of #71) @Shadowghost\n\n### CI & build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n",
+                "targetAbi": "10.8.3.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_9.0.0.0.zip",
+                "checksum": "02c26bfa57c7daa0b302bc83a4e11ddf",
+                "timestamp": "2022-08-07T12:57:13Z"
+            }
+        ]
+    }
+]
